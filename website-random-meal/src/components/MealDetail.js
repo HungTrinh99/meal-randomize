@@ -22,10 +22,10 @@ export const MealDetail = ({ meal }) => {
   return (
     <div className="meal-wrp">
       <div className="row">
-        <div className="col-4 meal-thumbnail">
+        <div className=" col-12 col-md-4  meal-thumbnail">
           <img src={strMealThumb} alt="meal avt" />
         </div>
-        <div className="col-6">
+        <div className=" col-12 col-md-8 ">
           <p className="title text-uppercase">{strMeal}</p>
           <div className="meal-ingredients">
             <p>Ingredients</p>
